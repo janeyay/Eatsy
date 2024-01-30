@@ -1,0 +1,513 @@
+.top-content{
+    
+    width:100%;
+    
+    height:775px;
+    background-image:url(../image/backgroung.png);
+    background-size: cover;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.navigation{
+    background-color: #f2c2b8;
+}
+.container-fluid .sticky-top .animate__animated.animate__fadeInDown{
+    animation-duration: 2s;
+    animation-delay: 1s;
+}
+.navbar{
+    height:80px;
+    border-bottom:0.5px solid #8f2952;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.navbar-nav{
+    width: 400px;
+    justify-content: space-around;
+    padding-left:15px;
+
+}
+.navbar-nav a{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    color:#42061e;
+ }
+.d-flex{
+    width:280px;
+    align-content: center;
+    justify-content: space-between;
+    margin-right: 25px;
+}
+.d-flex i{
+    margin-top:18px;
+}
+.d-flex button{
+    width:200px;
+    background-color: burlywood;
+    border-style: none;
+    border-radius:2px;
+    height:60px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color:#42061e;
+    transition: 0.5s;
+}
+.d-flex button:hover{
+    background-color:rgb(236, 171, 85);
+}
+.navbar-brand img{
+    width:120px;
+}
+.container-fluid{
+    margin-left:20px
+}
+@media only screen and (max-width: 992px) {
+    .d-flex{
+        flex-direction: column;
+        margin-left:15px;
+    }
+    .d-flex button{
+        margin-top:20px;
+    }
+    .d-flex i{
+        margin-left:3px;
+    }
+
+}
+.top-content .content{
+    
+    padding-left:80px;
+    
+}
+.top-content .rampa{
+    padding-top:115px;
+}
+.top-content .content h1{
+    font-size:85px ;
+    font-weight:600;
+    font-family: 'Times New Roman', Times, serif;
+    color:#42061e;
+    
+}
+.top-content .content1 .mar{
+    margin-left:80px;
+    background: transparent;
+    border: none;
+    margin-top:40px;
+    font-size: 15px;
+}
+.top-content .content1 .testimonials{
+    margin-left:80px;
+    margin-top:20px;
+    
+    width:450px;
+    justify-content: space-between;
+    display:flex;
+}
+.top-content .content1 .testimonials button{
+    margin-left: 0;
+    border:2px solid #42061e;
+    border-radius:2px;
+    height:50px;
+    width:200px;
+    background-color: transparent;
+    color:#42061e;
+    font-weight: 500;
+    transition: 0.5s;
+}
+.top-content .content1 .testimonials .ram {
+    background-color: #42061e;
+    color: aliceblue;
+}
+.top-content .content1 .testimonials button:hover{
+ background-color: #42061e;
+ color:aliceblue;
+}
+
+
+
+/*-------------------- Second content---------------------------*/
+
+.top-second{
+    margin-top: 75px;
+}
+.boxes{
+    display:flex; 
+}
+.top-second .rama{
+ border-left:2px solid rgb(204, 190, 190);
+}
+.top-second .rama .card img{
+    width:80px;
+    height:80px;
+    align-self: center;
+}
+.top-second .rama .card{
+    margin-left: 80px;
+    border:none;
+}
+.top-second .rama .card .card-body p{
+    align-content:center;
+}
+/*------------------------BIG JAR----------------------------*/
+.real-raw-honey{
+    margin-top:50px;
+    background-color:#f5f4ef;
+    padding-top: 140px;
+    
+    
+}
+.real-raw-honey .title1{
+    margin-bottom: 70px;
+    font-weight:lighter;
+}
+.real-raw-honey .title1 h1{
+    font-family: 'Times New Roman', Times, serif;
+    
+    color: #42061e;
+    
+}
+.real-raw-honey .card{
+    background: none;
+    border:none;
+}
+.real-raw-honey .boxes .rama .honey-jar img{
+    margin-left: -65px;
+}
+.real-raw-honey .boxes .rama .left-sec img{
+    width:80px;
+    height:80px;
+    align-self:center;
+}
+.real-raw-honey .boxes .rama .left-sec{
+    margin-top:80px;
+}
+.real-raw-honey .boxes .rama .right-sec img{
+    width:80px;
+    height:80px;
+    align-self:center;
+}
+.real-raw-honey .boxes .rama .right-sec{
+    margin-top:80px;
+}
+.real-raw-honey .boxes .rama p{
+    font-size:14px;
+}
+.real-raw-honey .boxes .rama h6{
+    color:#42061e;
+}
+.real-raw-honey .card{
+    margin-left:80px;
+    margin-top:30px;
+}
+
+/*-------------------honey keeper------------------*/
+
+.honey-keeper{
+    position:relative;
+    background-color: #a79174;
+}
+.honey-keeper .card{
+    background-color: transparent;
+}
+.honey-keeper .card img{
+    height:915px;
+    width:570px;
+}
+.car{
+    display:flex;
+    flex-direction: row;
+}
+.honey-keeper .card .card-body .dex{
+    margin-left:95px;
+    margin-right:95px;
+    margin-top:95px;
+}
+.honey-keeper .card .card-body .dex {
+    color:aliceblue;
+}
+.honey-keeper .card .card-body  p{
+    margin-top: 30px;
+}
+.honey-keeper .card .card-body .ra{
+    font-size:22px;
+    font-style: italic;
+}
+.honey-keeper .card .card-body .ca{
+    font-size: 18px;
+}
+.honey-keeper .card .card-body .sa{
+    background-color: transparent;
+    border: none;
+}
+.honey-keeper .fronta .pica img{
+    width:220px;
+    height:160px;
+}
+.honey-keeper .fronta .pica p{
+    width:220px;
+    color:white;
+    font-size: 23px;
+}
+.honey-keeper .fronta {
+    position:absolute;
+    right: 20px;
+    bottom: 50px;
+}
+.honey-keeper .fronta .pica{
+    width:100%;
+    display:flex;
+    justify-content:flex-end ;
+}
+
+.honey-keeper .fronta .pica .cola{
+    margin-right: 90px;
+}
+.video{
+    position: relative;
+}
+.video .top-content1 h2{
+    margin-top:150px;
+    font-size:70px;
+    font-weight: 40;
+    width:775px;
+    margin-left:80px;
+}
+.video .top-content1 p{
+    margin-top:35px;
+    font-size:25px;
+    width:700px;
+    margin-left:80px;
+    font-style: italic;
+    margin-bottom: 20px;
+}
+.video .video1{
+    overflow: hidden;
+    width:1197px;
+    height:auto;
+    margin-left:80px;
+   
+}
+.video .video1 img{
+    width:1195px;
+    height:auto;
+    transition:transform 2s;
+}
+.video .video1:hover img{
+    transform:scale(1.09);
+}
+.video .video1 i{
+    position:absolute;
+     top: 554px;
+    left: 618px;
+    color: white;
+    font-size: 74px
+}
+.video .video1 i:hover{
+    color:wheat;
+}
+
+
+
+/*<----------------healing power----------------------->*/
+
+
+.healing-power{
+    margin-top:110px;
+}
+
+.healing-power .car{
+    margin-left: 80px;
+    margin-right: 80px;
+}
+.healing-power .card{
+    border:none;
+}
+.healing-power .car .imaaa img{
+    width:540px;
+    height:535px;
+}
+.healing-power .card .card-body .pro h5{
+    color:#42061e;
+}
+.healing-power .card .card-body{
+    padding-top:50px;
+    margin-left: 40px;
+}
+.healing-power .card .card-body .pro1 p{
+    font-size: 23px;
+    font-style: italic;
+    color:#42061e;
+    margin-top:25px;
+}
+.healing-power .card .card-body .pro1 a{
+    margin-top: 30px;
+    border-radius:2px;
+    border:2px solid #42061e;
+    background-color: transparent;
+    color: #42061e;
+    height:50px;
+   padding-top:10px;
+}
+.healing-power .card .card-body .pro{
+    display:flex;
+}
+.healing-power .card .card-body .pro img{
+    
+    width:55px;
+    height:60px;
+}
+.healing-power .card .card-body .pro{
+    display:flex;
+    flex-direction: row;
+     
+    margin-top:50px;
+}
+.healing-power .card .card-body .pro p{
+    font-size:13px;
+    margin-left:20px;
+    
+}
+.healing-power .card .card-body .pro h6{
+    margin-top:-120px;
+    margin-left:20px;
+}
+
+
+
+/*------------------------family farmed-------------------------------*/
+
+
+
+.family-farmed{
+    margin-top:110px;
+}
+
+.family-farmed .car{
+    margin-left: 80px;
+    margin-right: 80px;
+}
+.family-farmed .card{
+    border:none;
+}
+.family-farmed .car .imaaa img{
+    width:540px;
+    height:535px;
+}
+.family-farmed .card .card-body .pro h5{
+    color:#42061e;
+}
+.family-farmed .card .card-body{
+    padding-top:50px;
+    margin-right: 40px;
+    padding-left:-30px;
+}
+.family-farmed .card .card-body .pro1 p{
+    font-size: 23px;
+    font-style: italic;
+    color:#42061e;
+    margin-top:25px;
+}
+.family-farmed .card .card-body .pro1 a{
+    margin-top: 30px;
+    border-radius:2px;
+    border:2px solid #42061e;
+    background-color: transparent;
+    color: #42061e;
+    height:50px;
+   padding-top:10px;
+}
+.family-farmed .card .card-body .pro{
+    display:flex;
+}
+.family-farmed .card .card-body .pro img{
+    
+    width:55px;
+    height:60px;
+}
+.family-farmed .card .card-body .pro{
+    display:flex;
+    flex-direction: row;
+     
+    margin-top:50px;
+}
+.family-farmed .card .card-body .pro p{
+    font-size:13px;
+    margin-left:50px;
+    
+}
+.family-farmed .card .card-body .pro h6{
+    margin-top:-120px;
+    margin-left:50px;
+}
+/*-----------------------bottom----------------------*/
+.bottom{
+    margin-top: 80px;
+    background-color: #f5f4ef;
+    padding-top:110px;
+}
+.bottom .above i{
+    font-size:100px;
+    color:#42061e;  
+}
+.bottom .above .text{
+    font-size: 20px;
+    font-style: italic;
+}
+.bottom .above .ra{
+    width:800px;
+    height:60px;
+    border-radius:0;
+    margin-left:277px;
+}
+.bottom .above .ra .ramaa{
+    background-color: #42061e;
+    width:200px;
+    color: white;
+    font-size: 20px;
+   font-weight:400;
+   height:60px;
+   padding-top:15px;
+}
+.bellow{
+    display:flex;
+    margin-top: 80px;
+    margin-right:90px;
+    margin-left:90px;
+}
+.bottom .bellow i{
+    font-size: 18px;
+    margin-right:15px;
+}
+.bottom .bellow ul{
+list-style-type:none;
+}
+.bottom .bellow p{
+font-size:15px ;
+}
+.bottom .bellow h6{
+    color:#42061e;
+}
+.bottom .bellow a{
+    color:#42061e
+}
+.bottom .bellow .raaas{
+    margin-top:15px;
+    
+}
+.rampa .animate__animated.animate__fadeInDown{
+    animation-duration: 2s; 
+}
+.card-text .animate__animated.animate__fadeInUp{
+    animation-duration:2s;
+}
+.testimonials .animate__animated.animate__fadeInUp{
+    animation-duration: 2s;
+    animation-delay: 4s;
+}
+.ima .animate__animated.animate__fadeInUp{
+    animation-duration: 2s; 
+}
